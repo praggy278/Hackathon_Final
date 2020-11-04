@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-04T21:19:28 IST" name="Suite" finished-at="2020-11-04T21:20:41 IST" duration-ms="72934">
+    <groups>
+    </groups>
+    <test started-at="2020-11-04T21:19:28 IST" name="Test" finished-at="2020-11-04T21:20:41 IST" duration-ms="72934">
+      <class name="com.tests.TestNG">
+        <test-method is-config="true" signature="selectingBrowser()[pri:0, instance:com.tests.TestNG@69504ae9]" started-at="2020-11-04T21:19:28 IST" name="selectingBrowser" finished-at="2020-11-04T21:19:36 IST" duration-ms="8234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectingBrowser -->
+        <test-method signature="getGoogleSignIn()[pri:0, instance:com.tests.TestNG@69504ae9]" started-at="2020-11-04T21:19:36 IST" name="getGoogleSignIn" finished-at="2020-11-04T21:20:01 IST" duration-ms="24949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGoogleSignIn -->
+        <test-method signature="getPopularUsedCars()[pri:0, instance:com.tests.TestNG@69504ae9]" started-at="2020-11-04T21:20:01 IST" name="getPopularUsedCars" finished-at="2020-11-04T21:20:12 IST" depends-on-methods="com.tests.TestNG.getGoogleSignIn" duration-ms="10747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPopularUsedCars -->
+        <test-method signature="getUpcomingBikes()[pri:0, instance:com.tests.TestNG@69504ae9]" started-at="2020-11-04T21:20:12 IST" name="getUpcomingBikes" finished-at="2020-11-04T21:20:41 IST" depends-on-methods="com.tests.TestNG.getPopularUsedCars" duration-ms="28891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUpcomingBikes -->
+      </class> <!-- com.tests.TestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

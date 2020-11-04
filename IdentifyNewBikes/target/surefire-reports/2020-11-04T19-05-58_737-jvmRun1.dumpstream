@@ -1,0 +1,44 @@
+# Created at 2020-11-04T19:06:19.272
+[SUREFIRE] std/in stream corrupted
+java.io.IOException: Command NOOP unexpectedly read Void data with length 4.
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:130)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+# Created at 2020-11-04T21:22:29.135
+Unexpected IOException: 8,1,com.tests.TestNG,selectingBrowser(com.tests.TestNG),null,null,null,null,TestNG.selectingBrowser:38 \00BB InputMismatch,java.util.InputMismatchException\000A\0009at com.tests.TestNG.selectingBrowser(TestNG.java:38)\000A
+
+
+# Created at 2020-11-04T21:22:29.278
+Unexpected IOException: 5,1,com.tests.TestNG,getGoogleSignIn(com.tests.TestNG),com.tests.TestNG,null,null
+
+
+# Created at 2020-11-04T21:22:29.283
+Unexpected IOException: 9,1,com.tests.TestNG,getGoogleSignIn(com.tests.TestNG),null,null,null
+
+
+# Created at 2020-11-04T21:22:29.360
+Unexpected IOException: 5,1,com.tests.TestNG,getPopularUsedCars(com.tests.TestNG),com.tests.TestNG,null,null
+
+
+# Created at 2020-11-04T21:22:29.362
+Unexpected IOException: 9,1,com.tests.TestNG,getPopularUsedCars(com.tests.TestNG),null,Method TestNG.getPopularUsedCars()[pri:0\002C instance:com.tests.TestNG@3590fc5b] depends on not successfully finished methods,null
+
+
+# Created at 2020-11-04T21:22:29.364
+Unexpected IOException: 5,1,com.tests.TestNG,getUpcomingBikes(com.tests.TestNG),com.tests.TestNG,null,null
+
+
+# Created at 2020-11-04T21:22:29.366
+Unexpected IOException: 9,1,com.tests.TestNG,getUpcomingBikes(com.tests.TestNG),null,Method TestNG.getUpcomingBikes()[pri:0\002C instance:com.tests.TestNG@3590fc5b] depends on not successfully finished methods,null
+
+
+# Created at 2020-11-04T21:22:29.370
+Unexpected IOException: 9,1,com.tests.TestNG,closeBrowser(com.tests.TestNG),null,null,null
+
+
+# Created at 2020-11-04T21:22:30.814
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,com.tests.TestNG,null,null,null
+
+
